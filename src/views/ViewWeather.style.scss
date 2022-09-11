@@ -1,0 +1,30 @@
+.view-weather {
+  margin: auto;
+  width: 950px;
+  max-width: 100%;
+  text-align: center;
+  overflow: hidden;
+
+  &__main {
+    margin: 10px;
+
+    h1 {
+      margin-top: 30px !important;
+    }
+
+    h3 {
+      font-size: 1.2em;
+      color: #fff;
+    }
+  }
+
+  h1 {
+    font-size: 3em;
+    color: #fff;
+    margin: 0;
+  }
+
+  .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border-radius: 7px;
+  }
+}

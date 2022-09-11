@@ -1,0 +1,25 @@
+.kit-tile {
+  margin: 10px;
+  background: linear-gradient(18.04deg, #4bb5f1 -0.75%, #2f2cbc 100%);
+  border-radius: 7px;
+  width: 200px;
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  height: 160px;
+
+  .ant-card-body {
+    padding: 15px !important;
+  }
+
+  &__wind {
+    text-align: left;
+    p {
+      font-size: 12px;
+
+      span {
+        font-size: 1.6em;
+      }
+    }
+  }
+}
